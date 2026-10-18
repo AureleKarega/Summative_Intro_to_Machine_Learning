@@ -1,0 +1,12 @@
+# Versions below match the environment this project was developed and run in (Python 3.12).
+tensorflow==2.21.0
+keras==3.14.1
+scikit-learn==1.9.0
+pandas==3.0.3
+numpy==2.4.4
+scipy==1.18.0
+matplotlib==3.11.1
+joblib==1.5.3
+# Needed only to run the notebook locally (Colab already provides these):
+notebook
+ipykernel
