@@ -1,0 +1,23 @@
+# Raw data must NOT be committed (hosted on Google Drive / UCI instead)
+*.csv
+*.zip
+*.xls
+*.xlsx
+data/
+
+# Saved models (hosted on Google Drive)
+models/
+*.joblib
+*.pkl
+*.h5
+*.keras
+*_savedmodel/
+
+# Generated outputs and Python/Jupyter clutter
+outputs/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
